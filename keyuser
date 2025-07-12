@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "username": "developer",
+      "password": "",
+      "level": "developer"
+    },
+    {
+      "username": "admin1",
+      "password": "adminpass",
+      "level": "admin",
+      "creator": "developer"
+    },
+    {
+      "username": "ress1",
+      "password": "resspass",
+      "level": "reseller",
+      "creator": "admin1"
+    }
+  ],
+  "keys": [
+    {
+      "key": "KEY-USER-1",
+      "level": "user",
+      "creator": "ress1"
+    },
+    {
+      "key": "bapuk,
+      "level": "developer",
+      "creator": "ress1"
+    }
+  ]
+}
